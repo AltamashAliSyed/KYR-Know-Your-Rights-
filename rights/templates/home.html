@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Of KYR (Known Your Rights) </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+       
+        
+       #box{
+       position: absolute;
+        height: 2526px;
+        width: 1755px;
+        overflow: hidden;
+        animation-name: box;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+    }
+
+
+    @keyframes box {
+    0% {
+        width: 0;
+        background-color: #003366;
+    }
+    40% {
+        width: 1755px;
+        background-color: #003366;
+    }
+    70% {
+        width: 1755px;
+        background-color: #003366;
+    }
+    100% {
+        width: 0;
+        background-color: white; 
+    }
+    }
+
+        
+
+
+    #right{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    font-style: oblique;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    top: 20%;
+    background-color: white;
+    animation-name: right;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;        
+    opacity: 0;
+            
+    }
+    #body{
+        height: 2500px;
+
+    }
+       
+        
+    @keyframes right {
+        0% {
+            opacity: 0;   
+            
+        }
+        
+        50% {
+            opacity: 5;
+            top: 20%;
+            margin-left: 45%;
+            
+            
+        }
+
+        70% {
+            opacity: 5;
+            top: 20%;
+            margin-left: 45%;
+            
+            
+        }
+
+        80%{
+            opacity: 0;
+            
+        }
+    }
+
+    .animated-img{
+        position: absolute;
+        
+        
+        animation-delay: 3s;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-name: img;
+        animation-fill-mode: forwards;
+        opacity: 0;
+        
+        
+
+    }
+
+    @keyframes img {
+
+        0%{
+            width:0%;
+            opacity: 0;
+
+        }
+
+        50%{
+            opacity: 0;
+        }
+
+        80%{
+            opacity: 0;
+        }
+        100%{
+            width: 1755px;
+            opacity: 100%;
+            height: 1000px;
+            
+        }
+        
+    }
+
+
+    #p2 {
+    position: absolute; 
+    left: 27%; 
+    top: 10%;
+    font-size: 50px;
+
+   color:white;
+   
+    animation-delay: 6s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-name: p;
+    animation-fill-mode: forwards;
+    opacity: 0;
+   
+}
+
+    
+@keyframes p {
+    0% {
+        left: 0%;
+        opacity: 0;
+        width: 0%
+    }
+    50% {
+        opacity: 0; 
+    }
+    100% {
+        
+        opacity: 1;
+        width: 500px; 
+    }
+}
+
+#p3 {
+    position: absolute; 
+    left: 25%; 
+    top: 25%;
+    color: white;
+    
+    font-size: 100px;
+    animation-delay: 6s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-name: p;
+    animation-fill-mode: forwards;
+    opacity: 0;
+   
+}
+
+    
+@keyframes p {
+    0% {
+        left: 0%;
+        opacity: 0;
+        width: 0%
+    }
+    50% {
+        opacity: 0; 
+    }
+    100% {
+        
+        opacity: 1;
+        width: 1000px; 
+    }
+}
+
+#law{
+    position: relative;
+    top: 25%;
+    background-color: #0B0C10;
+    animation-delay: 3s;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-name: law;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    
+}
+
+@keyframes law {
+
+    0%{
+            width:0%;
+            opacity: 0;
+
+        }
+
+        50%{
+            opacity: 0;
+        }
+
+        80%{
+            opacity: 0;
+        }
+        100%{
+            
+            opacity: 100%;
+        }
+    
+}
+#h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 80px;
+    color: antiquewhite;
+}
+
+#p4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+#img1 , #img2 , #img3, #img4, #img5{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+    
+#im {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: beige;
+}
+
+
+
+
+
+        
+    </style>
+</head>
+<body>
+
+    {% block content %}
+
+    <div id="body">
+        <div id="box"> 
+            <div id="right">
+                <p id="p1"> <i class="fa-solid fa-book-open-reader"></i>  Know Your rights</p>
+        
+            </div>
+                
+        </div>
+    
+        <div id="main">
+            
+            
+            
+            <img class="animated-img" src="https://www.sladesparsons.com.au/wp-content/uploads/2018/05/slider.jpg" alt="Slider Image">
+            <p id="p2"> Empowering You with Knowledge</p></img>
+            <p id="p3"> Explore Your Rights </p>
+
+            
+            
+        </div>
+        
+    
+        <div id="law">
+            
+            <h1 id="h1"> HIGH PRIORITY LAWS </h1><br><br>
+            <p id="p4">Below are the urgent legal safeguards addressing today's most pressing societal needs and protecting the rights of all.</p>
+
+            <div id="im">
+
+                <img id="img1" src="https://cdn-icons-png.flaticon.com/512/7404/7404239.png" alt="Law Icon">
+                <p id="5"> <h1>Civil Rights </h1>
+                    Civil rights ensure individual freedoms and protection from discrimination, promoting equality and justice for all under the law.
+                </p>
+
+                <img id="img2" src="https://th.bing.com/th/id/OIP.ipeCA7iOgldw7203hkm-hgHaDt?w=337&h=175&c=7&r=0&o=5&pid=1.7>">
+                <p id="6"> <h1> Fundamental Rights </h1> Fundamental rights are a set of essential liberties and entitlements guaranteed to individuals by the constitution of a country. These rights are designed to protect citizens from arbitrary actions by the state and ensure basic human freedoms.
+                </p>
+
+                <img id="img3" src="https://cdn1.iconfinder.com/data/icons/ecology-environment-16/64/Save-World-ecology-environment-sustainability-earth-1024.png">
+                <p id="7"> <h1>Environmental Rights </h1>
+                    The right to a healthy environment has gained constitutional recognition and protection in more than 100 States; the strongest form of legal protection available. About two thirds of the constitutional rights refer to a healthy environment; alternative formulations include rights to a clean, safe, favourable, wholesome or ecologically balanced environment.</p>
+
+                <img id="img4" src="https://static.vecteezy.com/system/resources/previews/026/001/892/non_2x/human-rights-icon-design-free-vector.jpg">
+                <p id="8"> <h1> Human Rights </h1> Human rights are the basic rights and freedoms to which everyone is entitled on the basis of their common humanity. They include civil and political rights, as well as economic, social, and cultural rights.</p>
+
+                <img id="img5" src="https://cdn4.iconfinder.com/data/icons/disability-23/504/disability-law-rights-access-legal-512.png">
+                <p id="9"> <h1> Legal Rights </h1>
+                    A legal right is an interest accepted an protected by law and the  violation of any legal right of a person is considered as a legal wrong and punishable by law. Legal right are equally available to all citizens without discrimination based on caste, creed and sex and it is the duty of every individual to respect it.</p>
+
+
+            </div>
+
+        </div>
+            
+    </div>
+
+    
+    
+
+   
+    
+   
+
+    {% endblock content %}
+    
+   
+ 
+    
+</body>
+</html>
